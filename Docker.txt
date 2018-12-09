@@ -3,8 +3,16 @@ Docker HomePage : https://www.docker.com/
 
 How to search image for docker ?
 
-Offical image store : https://hub.docker.com/
+Official image store : https://hub.docker.com/
 China image store : https://hub.daocloud.io/
+
+In both image store, we can search that image that we need. After searched, we can use below command to pull the image into our local machine.
+
+Eg MySQL pull command:
+docker pull mysql                     (pull mysql latest version image from official image store)
+docker pull mysql:5.7                 (pull mysql image with 5.7 version from offical image store)
+docker pull daocloud.io/library/mysql:latest          (pull latest mysql image from daocloud.io)
+docker pull daocloud.io/library/mysql:5.7             (pull mysql with 5.7 version from daoclould.io)
 
 
 
