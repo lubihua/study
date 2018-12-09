@@ -20,10 +20,10 @@ docker pull daocloud.io/library/mysql:5.7             (pull mysql with 5.7 versi
 
 docker run --name mysql57 -p 3306:3306 -v C:/Users/Bekcy/docker_data/mysql57:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=123456 -d mysql:5.7
 
-docker ps 
+docker ps                           (To list all containers and their status)
 
-docker ps -a
+docker ps -a                        (To list all active containers and their status)
 
-docker start xxx
+docker start CONTAINER_NAME         (To start 
 
 docker stop xxx
