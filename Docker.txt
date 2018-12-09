@@ -24,6 +24,6 @@ docker ps                           (To list all containers and their status)
 
 docker ps -a                        (To list all active containers and their status)
 
-docker start CONTAINER_NAME         (To start 
+docker start CONTAINER_NAME         (To start CONTAINER) 
 
-docker stop xxx
+docker stop CONTAINER_NAME          (To stop CONTAINER）
