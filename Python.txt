@@ -21,3 +21,11 @@ print("I am "+str(age) +" years old.")
 
 注释
 在python中，使用井号#标识，井号后面的内容会被python解释器忽略。
+
+列表
+定义：使用中括号[]表示列表，并使用逗号来分隔其中的元素
+索引：索引从0开始，例如xxx[2]就是访问第三个元素
+     索引如果为负数，就是指倒数第几个元素，例如xxx[-2]就是倒数第二个元素
+bicycles=['trek','cannondale','redline','specialized']
+bicycles[0] 就是第一个元素trek
+bicycles[-2] 就是倒数第二个元素redline 
