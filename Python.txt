@@ -29,3 +29,18 @@ print("I am "+str(age) +" years old.")
 bicycles=['trek','cannondale','redline','specialized']
 bicycles[0] 就是第一个元素trek
 bicycles[-2] 就是倒数第二个元素redline 
+修改元素：通过索引去指定并修改元素, eg, array[2]='abc'
+添加元素：
+     .append(value): 在列表末尾添加元素
+     .insert(index,value): 在指定索引出添加元素
+删除元素：
+     del array[index] : 删除指定索引位置的元素,eg, del array[1], 删除array中的第二个元素
+     .pop(): 删除末尾元素，并返回该元素的值
+     .pop(index): 删除指定索引位置的元素，并返回该元素的值
+     .remove(value): 删除第一个指定值的元素, eg  array.remove('abc') , 在数组array中删除第一个值为abc的元素。
+     
+     
+     
+     
+     
+
