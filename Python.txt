@@ -24,6 +24,7 @@ print("I am "+str(age) +" years old.")
 
 列表
 定义：使用中括号[]表示列表，并使用逗号来分隔其中的元素
+长度：len(xxx), 返回列表长度
 索引：索引从0开始，例如xxx[2]就是访问第三个元素
      索引如果为负数，就是指倒数第几个元素，例如xxx[-2]就是倒数第二个元素
 bicycles=['trek','cannondale','redline','specialized']
@@ -38,6 +39,11 @@ bicycles[-2] 就是倒数第二个元素redline
      .pop(): 删除末尾元素，并返回该元素的值
      .pop(index): 删除指定索引位置的元素，并返回该元素的值
      .remove(value): 删除第一个指定值的元素, eg  array.remove('abc') , 在数组array中删除第一个值为abc的元素。
+排序：xxx.sort() :对列表进行永久性排序（默认是升序排序），会改变原来列表里面元素顺序
+     xxx.sort(reverse=True) : 对列表进行永久性“倒序”排序
+     sorted(xxx): 对列表进行临时性排序，不会改变原来列表里面元素排序
+     sorted(xxx,reverse=True):对列表进行临时性倒序排序
+     xxx.reverse(): 对列表进行反转排序，会改变原来列表里面的元素排序
      
      
      
