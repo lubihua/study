@@ -44,8 +44,23 @@ bicycles[-2] 就是倒数第二个元素redline
      sorted(xxx): 对列表进行临时性排序，不会改变原来列表里面元素排序
      sorted(xxx,reverse=True):对列表进行临时性倒序排序
      xxx.reverse(): 对列表进行反转排序，会改变原来列表里面的元素排序
-     
-     
+计算：
+min(xxx): 返回最小值
+max(xxx)：返回最大值
+sum(xxx)：返回所有元素的总和
+
+循环
+格式：for 循环第一行以for 开头，in一个list，冒号结果，循环体为for之后每行行头缩进了的内容， 行头没有缩进代表循环已借宿。
+for xxx in xxx_list : 
+     ....
+     ....
+ 
+ 
+ 数值列表
+ range(a,b) : 生成一系列数字，从a开始，到b-1结束，不包含b，默认步长为1
+ range(a,b,c) : 生成一系列数字，从a开始，以c为步长，到b-1结束，不包含b
+ list(range(xxx)) : 将一系列数字转换为列表，如list(range(1,20,2))
+ 
      
      
      
