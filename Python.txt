@@ -62,6 +62,13 @@ newArray=array[:] , newArray 与array是两个独立的，互不影响的两个�
 array2=array , array2 与array 是指着同一个列表
 
 
+元组 ： 就是不可改变的列表
+元组使用圆括号()去定义，列表使用中括号[]去定义，
+dimension=("abc","cde")
+list=["abc","cde"]
+元组不能通过索引去改变某个元素赋值，但可以重新给整个元组赋值
+dimension[2]=xxx --> 报错，不允许
+dimension=("zzz","yyy") --> 允许
 
 
 
