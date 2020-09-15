@@ -107,7 +107,7 @@ if conditional_test:
 else:
     do others
 
-3. if-elif 语句 (可以有多个elif判断语句)
+3. if-elif 语句 (可以有多个elif判断语句,通过了条件测试后，python会跳过余下的条件测试)
 if conditional_test_1:
     do something
 elif conditional_test_2:
