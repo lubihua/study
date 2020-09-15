@@ -90,9 +90,37 @@ for xxx in xxx_list :
  print(squars)
  //上面例子为计算1～10的平方数，并放到squars列表中，头三行代码可以用一行“列表解析”代替
  squars=[number**2 for number in range(1,11)]
+ 列表解析的格式是
+ 列表名=[expression for iter_val in iterable]
  
  
- 
+if 条件判断
+可使用 == != < <= > >= 等作判断符号，也可以使用布尔表达式True/False
+多个条件判断时可以使用and 或 or 去连接
+1. if 语句
+if conditional_test:
+    do something
+
+2. if-else 语句
+if conditional_test:
+    do something
+else:
+    do others
+
+3. if-elif 语句 (可以有多个elif判断语句)
+if conditional_test_1:
+    do something
+elif conditional_test_2:
+    do something_2
+
+4. if-elif-else 语句(中间可以有多个elif判断语句)
+if conditional_test_1:
+    do something
+elif conditional_test_2:
+    do something_2
+else:
+    do others
+
      
      
      
